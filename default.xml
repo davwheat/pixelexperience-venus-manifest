@@ -847,4 +847,7 @@
   <!-- Add all PixelExperience repos -->
   <include name="snippets/pixel.xml" />
 
+  <!-- Add venus device repos -->
+  <include name="venus-additions.xml" />
+
 </manifest>
