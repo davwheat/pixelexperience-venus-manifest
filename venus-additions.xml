@@ -7,12 +7,6 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-11.0.0_r43"
-           remote="aosp"
-           sync-j="4"
-           sync-c="true"
-           sync-f="true" />
-
   <project path="device/xiaomi/sm8350-common" name="davwheat/device_xiaomi_sm8350-common" remote="github" groups="device,xiaomi,venus" revision="pe-eleven-plus" />
   <project path="kernel/xiaomi/sm8350" name="davwheat/kernel_xiaomi_sm8350" remote="github" groups="device,xiaomi,venus" revision="pe-eleven-plus" />
   <project path="device/xiaomi/venus" name="davwheat/device_xiaomi_venus" remote="github" groups="device,xiaomi,venus" revision="pe-eleven-plus" />
