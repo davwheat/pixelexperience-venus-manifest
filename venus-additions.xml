@@ -7,14 +7,8 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-11.0.0_r43"
-           remote="aosp"
-           sync-j="4"
-           sync-c="true"
-           sync-f="true" />
-
   <project path="device/xiaomi/sm8350-common" name="davwheat/device_xiaomi_sm8350-common" remote="github" groups="device,xiaomi,venus" revision="pe-eleven" />
-  <project path="kernel/xiaomi/sm8350" name="davwheat/kernel_xiaomi_sm8350" remote="github" groups="device,xiaomi,venus" revision="dw/pe-eleven/qcom-diag" />
+  <project path="kernel/xiaomi/sm8350" name="davwheat/kernel_xiaomi_sm8350" remote="github" groups="device,xiaomi,venus" revision="dw/pe-eleven/qcom-diag-char" />
   <project path="device/xiaomi/venus" name="davwheat/device_xiaomi_venus" remote="github" groups="device,xiaomi,venus" revision="pe-eleven" />
   <project path="hardware/xiaomi" name="davwheat/android_hardware_xiaomi" remote="github" revision="pe-eleven-plus" />
   <project path="vendor/xiaomi" name="davwheat/android_vendor_xiaomi" remote="github" revision="pe-eleven" />
